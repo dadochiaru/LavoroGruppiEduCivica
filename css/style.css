@@ -63,7 +63,7 @@ nav {
 #menu a:hover {
     color: white;
     background-color: #003e8f;
-    border-radius: 2px;
+    border-radius: 10px;
 }
 
 /*Gestisce il comportamento dei link del menu quando vengono cliccati*/
@@ -108,6 +108,62 @@ nav {
 .voce-obiettivo:hover {
     background: #d7e8ff;
     transform: translateX(6px);
+}
+
+.paragrafo-home img{
+    display: block;       
+    margin: 20px auto;   
+    max-width: 80%;       
+    height: auto;          
+    border-radius: 15px;  
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+}
+
+.chiusura-pagina {
+    background-color: #e8f1ff;
+    margin: 40px 10px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.chiusura-titolo {
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-family: Verdana, sans-serif;
+    color: #003e8f;
+    text-align: center;
+}
+
+.chiusura-testo {
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+
+/* FOOTER */
+.footer-sito {
+    /*sfumatura*/
+    background: linear-gradient(90deg, #1A73E8, #003e8f);
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.footer-testo {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.footer-crediti {
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    opacity: 0.8;
 }
 
 
