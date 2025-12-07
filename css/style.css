@@ -1,0 +1,39 @@
+/*Stile generale per il titolo*/
+h1{
+    font-size: 40px;
+    font-family: Verdana;
+}
+
+/*Impostazione del colore della barra del menu*/
+nav {
+    background: linear-gradient(90deg, #1A73E8, #1A73E8);
+}
+
+/*Stile generale per il menu*/
+#menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    margin: 0;
+}
+
+/*Impostazione della distanza tra le varie voci del menu*/
+#menu li {
+    margin: 0 45px;
+}
+
+/*Stile dei link del menu*/
+#menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+/*Gestisce il comportamento dei link del menu quando gli si passa sopra col mouse*/
+#menu a:hover {
+    color: white;
+    background-color: #003e8f;
+    border-radius: 2px;
+}
