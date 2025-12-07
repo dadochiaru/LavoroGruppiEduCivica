@@ -72,3 +72,42 @@ nav {
     background-color: #a9cdfd;
     border-radius: 2px;
 }
+
+.paragrafo-home {
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #0d1b2a;
+    background-color: #f4f9ff;
+    padding: 18px 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-left: 5px solid #1A73E8;
+    box-shadow: 0 3px 8px rgba(0, 60, 180, 0.10);
+}
+
+.lista-home {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.voce-obiettivo {
+    background: #e8f1ff;
+    margin-bottom: 15px;
+    padding: 15px 18px;
+    border-radius: 10px;
+    font-family: Verdana, sans-serif;
+    border-left: 5px solid #1A73E8;
+    line-height: 1.6;
+    transition: 0.2s ease;
+    box-shadow: 0 3px 8px rgba(0, 60, 180, 0.10);
+}
+
+.voce-obiettivo:hover {
+    background: #d7e8ff;
+    transform: translateX(6px);
+}
+
+
