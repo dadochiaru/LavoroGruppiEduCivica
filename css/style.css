@@ -1,12 +1,40 @@
+body{
+    background-color: white;
+}
+
+main{
+    margin: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 25px;
+}
+
+header{
+    margin: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
 /*Stile generale per il titolo*/
 h1{
     font-size: 40px;
     font-family: Verdana;
 }
 
+/*Stile per l'immagine di copertina*/
+#copertina{
+    border-radius: 15px;
+    width: 300px;
+    height: auto;
+}
+
 /*Impostazione del colore della barra del menu*/
 nav {
     background: linear-gradient(90deg, #1A73E8, #1A73E8);
+    border-radius: 5px;
 }
 
 /*Stile generale per il menu*/
@@ -20,7 +48,7 @@ nav {
 
 /*Impostazione della distanza tra le varie voci del menu*/
 #menu li {
-    margin: 0 45px;
+    margin: 0 20px;
 }
 
 /*Stile dei link del menu*/
@@ -35,5 +63,12 @@ nav {
 #menu a:hover {
     color: white;
     background-color: #003e8f;
+    border-radius: 2px;
+}
+
+/*Gestisce il comportamento dei link del menu quando vengono cliccati*/
+#menu a:active {
+    color: black;
+    background-color: #a9cdfd;
     border-radius: 2px;
 }
