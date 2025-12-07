@@ -8,6 +8,13 @@ main{
     background-color: aliceblue;
     padding: 25px;
 }
+.titolo-blu {
+    color: #1A73E8;
+}
+
+.titolo-grigio {
+    color: #555555;
+}
 
 header{
     margin: 10px;
@@ -25,11 +32,13 @@ h1{
 }
 
 /*Stile per l'immagine di copertina*/
-#copertina{
+#copertina {
     border-radius: 15px;
     width: 300px;
     height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
+
 
 /*Impostazione del colore della barra del menu*/
 nav {
@@ -164,6 +173,87 @@ nav {
     font-size: 14px;
     font-family: Verdana, sans-serif;
     opacity: 0.8;
+}
+
+.servizi-pubblici .section-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+    margin: 20px 10px;
+}
+
+.servizi-pubblici .paragrafo-home {
+    background-color: #f4f9ff;
+    border-left: 5px solid #1A73E8;
+    padding: 20px;
+    border-radius: 12px;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #0d1b2a;
+    width: 100%;
+}
+
+.servizi-pubblici .lista-home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+}
+
+.servizi-pubblici .voce-obiettivo {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #d6e8ff;
+    flex: 1 1 250px;
+    max-width: 300px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.servizi-pubblici .voce-obiettivo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 60, 180, 0.15);
+}
+
+.servizi-pubblici .spid-img-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.servizi-pubblici .spid-img-container img {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 60, 180, 0.15);
+}
+
+.servizi-pubblici .chiusura-pagina {
+    background-color: #e8f1ff;
+    margin: 40px 10px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.servizi-pubblici .chiusura-titolo {
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-family: Verdana, sans-serif;
+    color: #003e8f;
+    text-align: center;
+}
+
+.servizi-pubblici .chiusura-testo {
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: center;
+    font-family: Verdana, sans-serif;
 }
 
 

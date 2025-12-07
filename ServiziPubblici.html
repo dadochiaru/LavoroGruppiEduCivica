@@ -1,33 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--CSS COLLEGATO-->
+    <title>Servizi Pubblici</title>
     <link rel="stylesheet" href="css/style.css">
-    
-    <title>HomePage</title>
 </head>
 <body>
+    <header>
+        <h1>
+            <span class="titolo-blu">Servizi Pubblici</span> 
+            <span class="titolo-grigio">disponibili per i cittadini</span>
+        </h1>
+        <img id="copertina" src="./img/osservatori_politecnico_agenda_digitale.jpg" alt="Servizi Pubblici">
+    </header>
 
-    <h1>Servizi Pubblici</h1>
+    <main>
+        <!-- MENU NAVIGAZIONE TRA VARIE PAGINE -->
+        <nav>
+            <ul id="menu">
+                <li><a href="HomePage.html">HomePage</a></li>
+                <li><a href="ServiziPubblici.html">Servizi Pubblici</a></li>
+                <li><a href="ServiziPrivati.html">Servizi Privati</a></li>
+                <li><a href="TabellaComparativa.html">Tabella Comparativa</a></li>
+                <li><a href="NormativeSicurezza.html">Normative & Sicurezza</a></li>
+                <li><a href="EsempiPratici.html">Casi pratici</a></li>
+            </ul>
+        </nav>
 
-    <!--MENU NAVIGAZIONE TRA VARIE PAGINE-->
-    <nav>
-        <ul id="menu">
-            <li><a href="HomePage.html">HomePage</a></li>
-            <li><a href="ServiziPubblici.html">Servizi Pubblici</a></li>
-            <li><a href="ServiziPrivati.html">Servizi Privati</a></li>
-            <li><a href="TabellaComparativa.html">Tablella Comparativa</a></li>
-            <li><a href="NormativeSicurezza.html">Normative & Sicurezza</a></li>
-            <li><a href="EsempiPratici.html">Casi pratici</a></li>
-        </ul>
-    </nav>
+        <main class="servizi-pubblici">
+            <div class="section-box">
+                <p class="paragrafo-home">
+                    I servizi digitali pubblici sono piattaforme messe a disposizione dallo Stato o dagli enti locali
+                    per facilitare la vita dei cittadini. Tra questi troviamo siti e app che permettono di accedere a
+                    informazioni, servizi amministrativi e comunicazioni ufficiali. L’utilizzo di questi strumenti
+                    è spesso regolamentato da norme precise, garantendo sicurezza e trasparenza.
+                </p>
+        
+                <p class="paragrafo-home">
+                    Questi servizi consentono ai cittadini di svolgere operazioni online senza recarsi fisicamente
+                    negli uffici, risparmiando tempo e aumentando l’efficienza. Alcuni esempi importanti includono
+                    SPID per l’identità digitale, il sito INPS per pratiche pensionistiche o contributive, 
+                    l’app IO per comunicazioni con il Comune, e molti altri.
+                    <img src="img/spid.jpg" alt="SPID">
+                </p>
+                 <ul class="lista-home">
+                    <li class="voce-obiettivo">
+                        <strong>Accesso alle informazioni:</strong>
+                        i cittadini possono consultare documenti ufficiali, pagamenti, scadenze e normative in modo semplice e sicuro.
+                    </li>
+                    <li class="voce-obiettivo">
+                        <strong>Servizi online:</strong>
+                        prenotazioni, richieste e pratiche digitali che riducono code e tempi di attesa negli uffici pubblici.
+                    </li>
+                    <li class="voce-obiettivo">
+                        <strong>Identità digitale:</strong>
+                        strumenti come SPID permettono di autenticarsi in modo sicuro e proteggere i propri dati personali.
+                    </li>
+                    <li class="voce-obiettivo">
+                        <strong>Comunicazioni ufficiali:</strong>
+                        app come IO informano i cittadini su notifiche, scadenze e avvisi pubblici direttamente sullo smartphone.
+                    </li>
+                </ul>
+        
+                <p class="paragrafo-home">
+                    L’uso consapevole dei servizi pubblici digitali aiuta a migliorare la partecipazione civica,
+                    aumentare la trasparenza e ridurre i rischi legati alla sicurezza dei dati. 
+                    Conoscere le funzionalità e le modalità di accesso è fondamentale per utilizzare queste piattaforme
+                    in modo efficace e sicuro.
+                </p>
+        
+                <section class="chiusura-pagina">
+                    <h2 class="chiusura-titolo">Conclusione</h2>
+                    <p class="chiusura-testo">
+                        In sintesi, i servizi pubblici digitali permettono di accedere facilmente a informazioni e servizi,
+                        favorendo la partecipazione dei cittadini e la trasparenza della Pubblica Amministrazione. 
+                        Utilizzarli in modo consapevole significa proteggere i propri dati e contribuire a una comunità digitale più sicura.
+                    </p>
+                </section>
+            </div>
+        </main>
+        
 
-    
+        <!-- Chiusura pagina prima del footer -->
+        <section class="chiusura-pagina">
+            <h2 class="chiusura-titolo">Conclusione</h2>
+            <p class="chiusura-testo">
+                In sintesi, i servizi pubblici digitali permettono di accedere facilmente a informazioni e servizi,
+                favorendo la partecipazione dei cittadini e la trasparenza della Pubblica Amministrazione. 
+                Utilizzarli in modo consapevole significa proteggere i propri dati e contribuire a una comunità digitale più sicura.
+            </p>
+        </section>
+    </main>
 
-    <!--JS COLLEGATO-->
     <script src="js/main.js"></script>
-    
 </body>
 </html>
