@@ -43,7 +43,9 @@ h1{
 /*Impostazione del colore della barra del menu*/
 nav {
     background: linear-gradient(90deg, #1A73E8, #1A73E8);
-    border-radius: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Verdana;
 }
 
 /*Stile generale per il menu*/
@@ -79,7 +81,7 @@ nav {
 #menu a:active {
     color: black;
     background-color: #a9cdfd;
-    border-radius: 2px;
+    border-radius: 10px;
 }
 
 .paragrafo-home {
@@ -93,7 +95,7 @@ nav {
     margin-bottom: 50px;
     margin-top: 50px;
     border-left: 5px solid #1A73E8;
-    box-shadow: 0 3px 8px rgba(0, 60, 180, 0.10);
+    box-shadow: 0px 3px 8px rgba(0, 60, 180, 0.10);
 }
 
 .lista-home {
@@ -175,7 +177,7 @@ nav {
     opacity: 0.8;
 }
 
-.servizi-pubblici .section-box {
+.servizi-pubblici .servizi-privati .section-box {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -183,7 +185,7 @@ nav {
     margin: 20px 10px;
 }
 
-.servizi-pubblici .paragrafo-home {
+.servizi-pubblici .servizi-privati .paragrafo-home {
     background-color: #f4f9ff;
     border-left: 5px solid #1A73E8;
     padding: 20px;
@@ -195,7 +197,7 @@ nav {
     width: 100%;
 }
 
-.servizi-pubblici .lista-home {
+.servizi-pubblici .servizi-privati .lista-home {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -205,7 +207,7 @@ nav {
     justify-content: center;
 }
 
-.servizi-pubblici .voce-obiettivo {
+.servizi-pubblici .servizi-privati .voce-obiettivo {
     background: white;
     border-radius: 12px;
     padding: 20px;
@@ -215,33 +217,33 @@ nav {
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.servizi-pubblici .voce-obiettivo:hover {
+.servizi-pubblici .servizi-privati .voce-obiettivo:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 60, 180, 0.15);
 }
 
-.servizi-pubblici .spid-img-container {
+.servizi-pubblici .servizi-privati .spid-img-container {
     display: flex;
     justify-content: center;
     margin: 20px 0;
 }
 
-.servizi-pubblici .spid-img-container img {
-    width: 80%;
+.servizi-pubblici .servizi-privati .spid-img-container img {
+    width: 75%;
     max-width: 400px;
     height: auto;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 60, 180, 0.15);
 }
 
-.servizi-pubblici .chiusura-pagina {
+.servizi-pubblici .servizi-privati .chiusura-pagina {
     background-color: #e8f1ff;
     margin: 40px 10px;
     padding: 25px;
     border-radius: 10px;
 }
 
-.servizi-pubblici .chiusura-titolo {
+.servizi-pubblici .servizi-privati .chiusura-titolo {
     font-size: 28px;
     margin-bottom: 15px;
     font-family: Verdana, sans-serif;
@@ -249,11 +251,9 @@ nav {
     text-align: center;
 }
 
-.servizi-pubblici .chiusura-testo {
+.servizi-pubblici .servizi-privati .chiusura-testo {
     font-size: 18px;
     line-height: 1.7;
     text-align: center;
     font-family: Verdana, sans-serif;
 }
-
-
