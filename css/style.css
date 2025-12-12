@@ -28,7 +28,7 @@ header{
 /*Stile generale per il titolo*/
 h1{
     font-size: 40px;
-    font-family: Verdana;
+    font-family: sans-serif;
 }
 
 /*Stile per l'immagine di copertina*/
@@ -42,10 +42,10 @@ h1{
 
 /*Impostazione del colore della barra del menu*/
 nav {
-    background: linear-gradient(90deg, #1A73E8, #1A73E8);
+    background: linear-gradient(270deg, #1A73E8, #05469a);
     border-radius: 10px;
     font-size: 15px;
-    font-family: Verdana;
+    font-family: sans-serif;
 }
 
 /*Stile generale per il menu*/
@@ -85,7 +85,7 @@ nav {
 }
 
 .paragrafo-home {
-    font-family: Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: 18px;
     line-height: 1.7;
     color: #0d1b2a;
@@ -109,7 +109,7 @@ nav {
     margin-bottom: 15px;
     padding: 15px 18px;
     border-radius: 10px;
-    font-family: Verdana, sans-serif;
+    font-family: sans-serif;
     border-left: 5px solid #1A73E8;
     line-height: 1.6;
     transition: 0.2s ease;
@@ -141,7 +141,7 @@ nav {
 .chiusura-titolo {
     font-size: 28px;
     margin-bottom: 15px;
-    font-family: Verdana, sans-serif;
+    font-family: sans-serif;
     color: #003e8f;
     text-align: center;
 }
@@ -150,13 +150,13 @@ nav {
     font-size: 18px;
     line-height: 1.7;
     text-align: center;
-    font-family: Verdana, sans-serif;
+    font-family: sans-serif;
 }
 
 /* FOOTER */
 .footer-sito {
     /*sfumatura*/
-    background: linear-gradient(90deg, #1A73E8, #003e8f);
+    background: linear-gradient(270deg, #1A73E8, #003e8f);
     color: white;
     text-align: center;
     padding: 25px 10px;
@@ -166,14 +166,14 @@ nav {
 
 .footer-testo {
     font-size: 16px;
-    font-family: Verdana, sans-serif;
+    font-family: sans-serif;
     margin-bottom: 10px;
     line-height: 1.6;
 }
 
 .footer-crediti {
     font-size: 14px;
-    font-family: Verdana, sans-serif;
+    font-family: sans-serif;
     opacity: 0.8;
 }
 
@@ -190,7 +190,7 @@ nav {
     border-left: 5px solid #1A73E8;
     padding: 20px;
     border-radius: 12px;
-    font-family: Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: 18px;
     line-height: 1.7;
     color: #0d1b2a;
@@ -246,7 +246,7 @@ nav {
 .servizi-pubblici .servizi-privati .chiusura-titolo {
     font-size: 28px;
     margin-bottom: 15px;
-    font-family: Verdana, sans-serif;
+    font-family: sans-serif;
     color: #003e8f;
     text-align: center;
 }
@@ -255,7 +255,7 @@ nav {
     font-size: 18px;
     line-height: 1.7;
     text-align: center;
-    font-family: Verdana, sans-serif;
+    font-family: sans-serif;
 }
 
 table{
@@ -272,11 +272,11 @@ table th, td{
 }
 
 table th{
-    background-color: #1A73E8;
+    background: linear-gradient(270deg, #1A73E8, #003e8f);
     color: white;
 }
 
 #vuoto-tab{
-    background-color: aliceblue;
+    background: aliceblue;
     box-shadow: 0 0px 0px aliceblue;
 }
