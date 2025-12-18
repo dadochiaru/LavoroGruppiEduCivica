@@ -1,31 +1,191 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--CSS COLLEGATO-->
+
+    <!-- CSS collegato -->
     <link rel="stylesheet" href="css/style.css">
-    
-    <title>HomePage</title>
+
+    <title>Casi pratici di Sicurezza Digitale</title>
 </head>
 <body>
 
-    <h1>Esempi pratici</h1>
+<header>
+    <h1>
+        <span class="titolo-blu">Casi</span>
+        <span class="titolo-grigio"> pratici di sicurezza digitale</span>
+    </h1>
 
-    <!--MENU NAVIGAZIONE TRA VARIE PAGINE-->
+    <img id="copertina" src="img/osservatori_politecnico_agenda_digitale.jpg" alt="Casi pratici sicurezza">
+</header>
+
+<main>
+
+    <!-- MENU -->
     <nav>
         <ul id="menu">
             <li><a href="index.html">HomePage</a></li>
             <li><a href="ServiziPubblici.html">Servizi Pubblici</a></li>
             <li><a href="ServiziPrivati.html">Servizi Privati</a></li>
-            <li><a href="TabellaComparativa.html">Tablella Comparativa</a></li>
+            <li><a href="TabellaComparativa.html">Tabella Comparativa</a></li>
             <li><a href="NormativeSicurezza.html">Normative & Sicurezza</a></li>
             <li><a href="EsempiPratici.html">Casi pratici</a></li>
         </ul>
     </nav>
 
-    <!--JS COLLEGATO-->
-    <script src="js/main.js"></script>
-    
+    <!-- INTRO -->
+    <p class="paragrafo-home">
+        I rischi legati ai servizi digitali non sono solo teorici: ogni giorno cittadini,
+        aziende e istituzioni sono vittime di furti informatici, truffe online e attacchi
+        ai sistemi digitali. Di seguito vengono analizzati alcuni <strong>casi pratici</strong>
+        che mostrano come avvengono questi attacchi e quali conseguenze possono avere.
+    </p>
+
+    <!-- PHISHING -->
+    <p class="paragrafo-home">
+        <strong>Phishing e smishing</strong> sono tra le tecniche di truffa più diffuse.
+        I criminali informatici inviano email o SMS che imitano comunicazioni ufficiali
+        di banche, enti pubblici o servizi di consegna, inducendo le vittime a fornire
+        dati personali e finanziari.
+    </p>
+
+    <ul class="lista-home">
+        <li class="voce-obiettivo">
+            Finte comunicazioni bancarie che segnalano accessi sospetti e rimandano a siti web falsi.
+        </li>
+        <li class="voce-obiettivo">
+            SMS su spedizioni bloccate che richiedono piccoli pagamenti per lo sblocco.
+        </li>
+        <li class="voce-obiettivo">
+            Messaggi falsi su bonus o rimborsi INPS e Agenzia delle Entrate.
+        </li>
+    </ul>
+
+    <!-- SPID -->
+    <p class="paragrafo-home">
+        Un fenomeno in forte crescita in Italia è il <strong>furto di identità digitale SPID</strong>.
+        Attraverso documenti rubati o dati ottenuti illegalmente, i criminali riescono
+        a creare o utilizzare identità digitali a nome di altre persone.
+    </p>
+
+    <ul class="lista-home">
+        <li class="voce-obiettivo">
+            Creazione di SPID falsi utilizzando documenti reali rubati.
+        </li>
+        <li class="voce-obiettivo">
+            Accesso illecito ai servizi della Pubblica Amministrazione.
+        </li>
+        <li class="voce-obiettivo">
+            Modifica dell’IBAN per l’accredito di pensioni, bonus o rimborsi.
+        </li>
+    </ul>
+
+    <!-- MALWARE -->
+    <p class="paragrafo-home">
+        Un altro rischio molto diffuso è rappresentato dai <strong>malware</strong>,
+        programmi dannosi che infettano i dispositivi degli utenti attraverso email,
+        allegati o siti web compromessi.
+    </p>
+
+    <ul class="lista-home">
+        <li class="voce-obiettivo">
+            Email con allegati dannosi mascherati da fatture o documenti fiscali.
+        </li>
+        <li class="voce-obiettivo">
+            Furto di dati sensibili come credenziali bancarie e password.
+        </li>
+        <li class="voce-obiettivo">
+            Compromissione completa del sistema informatico.
+        </li>
+    </ul>
+
+    <!-- RANSOMWARE -->
+    <p class="paragrafo-home">
+        Gli <strong>attacchi ransomware</strong> sono tra i più pericolosi.
+        Questo tipo di malware cripta i dati presenti nei sistemi informatici,
+        rendendoli inutilizzabili e chiedendo un riscatto in cambio della chiave
+        di decrittazione.
+    </p>
+
+    <ul class="lista-home">
+        <li class="voce-obiettivo">
+            Blocco totale dei sistemi informatici di aziende o enti pubblici.
+        </li>
+        <li class="voce-obiettivo">
+            Richiesta di riscatto in criptovalute.
+        </li>
+        <li class="voce-obiettivo">
+            Rischio di perdita definitiva dei dati.
+        </li>
+    </ul>
+
+    <!-- CONTACTLESS -->
+    <p class="paragrafo-home">
+        Esistono anche forme di furto legate ai pagamenti <strong>contactless</strong>.
+        In alcuni casi, un malintenzionato può tentare piccoli pagamenti avvicinando
+        un POS portatile a una carta di pagamento.
+    </p>
+
+    <ul class="lista-home">
+        <li class="voce-obiettivo">
+            Addebiti di piccolo importo senza autorizzazione.
+        </li>
+        <li class="voce-obiettivo">
+            Difficoltà nel rilevare subito il furto.
+        </li>
+    </ul>
+
+    <!-- ATTACCHI REALI -->
+    <p class="paragrafo-home">
+        Negli ultimi anni anche grandi enti e aziende italiane sono state colpite
+        da gravi attacchi informatici, dimostrando come nessun sistema sia completamente
+        immune dai rischi digitali.
+    </p>
+
+    <ul class="lista-home">
+        <li class="voce-obiettivo">
+            <strong>Regione Lazio (2021):</strong> attacco ransomware che ha bloccato i servizi sanitari.
+        </li>
+        <li class="voce-obiettivo">
+            <strong>Luxottica:</strong> interruzione dei sistemi e potenziale violazione dei dati.
+        </li>
+        <li class="voce-obiettivo">
+            <strong>Geox:</strong> blocco dei sistemi informatici e ripristino tramite backup.
+        </li>
+    </ul>
+
+    <!-- GESTIONE -->
+    <p class="paragrafo-home">
+        In questi casi, la gestione degli incidenti segue generalmente procedure precise:
+        isolamento dei sistemi colpiti, analisi dell’attacco, ripristino dei dati tramite
+        backup sicuri e notifica alle autorità competenti, come previsto dal GDPR.
+    </p>
+
+</main>
+
+<!-- CONCLUSIONE -->
+<section class="chiusura-pagina">
+    <h2 class="chiusura-titolo">Conclusione</h2>
+    <p class="chiusura-testo">
+        I casi pratici mostrano come i rischi digitali siano concreti e quotidiani.
+        Una corretta informazione e il rispetto delle regole di sicurezza permettono
+        di ridurre i danni e proteggere dati, identità e servizi digitali.
+    </p>
+</section>
+
+<footer class="footer-sito">
+    <p class="footer-testo">
+        Sito realizzato per il progetto di Educazione Civica – Analisi Servizi Digitali.<br>
+        Gruppo di lavoro: Davide Chiarucci, Andrea Dini, Lucio Venerandi e Giacomo De Riccardis.
+    </p>
+
+    <p class="footer-crediti">
+        © 2025 • Tutti i diritti riservati
+    </p>
+</footer>
+
+<script src="js/main.js"></script>
+
 </body>
 </html>

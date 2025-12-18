@@ -1,31 +1,160 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--CSS COLLEGATO-->
+
+    <!-- CSS collegato -->
     <link rel="stylesheet" href="css/style.css">
-    
-    <title>HomePage</title>
+
+    <title>Normative & Sicurezza</title>
 </head>
 <body>
 
-    <h1>Normative & Sicurezza</h1>
+<header>
+    <h1>
+        <span class="titolo-blu">Normative</span>
+        <span class="titolo-grigio"> & Sicurezza Digitale</span>
+    </h1>
 
-    <!--MENU NAVIGAZIONE TRA VARIE PAGINE-->
+    <img id="copertina" src="img/osservatori_politecnico_agenda_digitale.jpg" alt="Sicurezza digitale">
+</header>
+
+<main>
+
+    <!-- MENU -->
     <nav>
         <ul id="menu">
             <li><a href="index.html">HomePage</a></li>
             <li><a href="ServiziPubblici.html">Servizi Pubblici</a></li>
             <li><a href="ServiziPrivati.html">Servizi Privati</a></li>
-            <li><a href="TabellaComparativa.html">Tablella Comparativa</a></li>
+            <li><a href="TabellaComparativa.html">Tabella Comparativa</a></li>
             <li><a href="NormativeSicurezza.html">Normative & Sicurezza</a></li>
             <li><a href="EsempiPratici.html">Casi pratici</a></li>
         </ul>
     </nav>
 
-    <!--JS COLLEGATO-->
-    <script src="js/main.js"></script>
-    
+    <!-- INTRODUZIONE -->
+    <p class="paragrafo-home">
+        La normativa sulla sicurezza dei servizi digitali, nota anche come cybersicurezza,
+        ha l’obiettivo di proteggere infrastrutture critiche, aziende e cittadini dalle
+        minacce informatiche. In Italia e in Europa il quadro normativo è in continua evoluzione
+        e impone un approccio sempre più <strong>preventivo e strutturato</strong> alla sicurezza,
+        superando la logica dell’intervento solo dopo l’incidente.
+    </p>
+
+    <!-- GESTIONE DEL RISCHIO -->
+    <p class="paragrafo-home">
+        Uno dei principi fondamentali delle normative europee è la <strong>gestione del rischio</strong>.
+        Le organizzazioni non possono più decidere liberamente se investire o meno in sicurezza:
+        la legge impone di individuare i rischi informatici, valutarli e adottare misure tecniche
+        e organizzative adeguate per ridurli.
+    </p>
+
+    <ul class="lista-home">
+        <li class="voce-obiettivo">
+            Identificazione delle minacce informatiche (malware, ransomware, interruzioni di servizio).
+        </li>
+        <li class="voce-obiettivo">
+            Valutazione dell’impatto sui servizi digitali e sui dati personali.
+        </li>
+        <li class="voce-obiettivo">
+            Adozione di misure di prevenzione e protezione adeguate.
+        </li>
+    </ul>
+
+    <!-- STANDARD MINIMI -->
+    <p class="paragrafo-home">
+        Le normative europee, come la <strong>Direttiva NIS 2</strong>, stabiliscono
+        degli <strong>standard minimi obbligatori di sicurezza</strong> che aziende
+        ed enti pubblici devono rispettare. Questi standard garantiscono un livello
+        di protezione comune e riducono il rischio di incidenti gravi.
+    </p>
+
+    <ul class="lista-home">
+        <li class="voce-obiettivo">
+            Politiche di backup e ripristino dei dati.
+        </li>
+        <li class="voce-obiettivo">
+            Gestione sicura degli accessi e delle credenziali.
+        </li>
+        <li class="voce-obiettivo">
+            Controllo della sicurezza della catena di fornitura (supply chain).
+        </li>
+        <li class="voce-obiettivo">
+            Formazione del personale sui rischi informatici.
+        </li>
+    </ul>
+
+    <!-- NOTIFICA INCIDENTI -->
+    <p class="paragrafo-home">
+        Un altro obbligo centrale è la <strong>notifica degli incidenti di sicurezza</strong>.
+        In caso di violazione significativa dei dati o dei servizi digitali, le organizzazioni
+        devono informare tempestivamente le autorità competenti entro tempi molto brevi
+        (generalmente 24 o 72 ore).
+    </p>
+
+    <!-- RESILIENZA -->
+    <p class="paragrafo-home">
+        La normativa non mira solo a prevenire gli attacchi, ma anche a garantire la
+        <strong>resilienza operativa</strong>. I servizi digitali essenziali devono essere
+        in grado di continuare a funzionare o di riprendersi rapidamente in caso di attacco
+        o guasto, come previsto anche dal regolamento <strong>DORA</strong> per il settore finanziario.
+    </p>
+
+    <!-- ITALIA -->
+    <p class="paragrafo-home">
+        In Italia il sistema di cybersicurezza si basa su un’architettura centralizzata
+        che coinvolge enti pubblici e privati. Il riferimento principale è
+        l’<strong>Agenzia per la Cybersicurezza Nazionale (ACN)</strong>, istituita nel 2021,
+        che coordina le strategie di difesa digitale e gestisce le crisi informatiche.
+    </p>
+
+    <ul class="lista-home">
+        <li class="voce-obiettivo">
+            Agenzia per la Cybersicurezza Nazionale (ACN): autorità centrale di riferimento.
+        </li>
+        <li class="voce-obiettivo">
+            Perimetro di Sicurezza Nazionale Cibernetica (PSNC): tutela delle infrastrutture critiche.
+        </li>
+        <li class="voce-obiettivo">
+            Obblighi di notifica, test di sicurezza e utilizzo di prodotti certificati.
+        </li>
+    </ul>
+
+    <!-- SANZIONI -->
+    <p class="paragrafo-home">
+        Le normative prevedono <strong>sanzioni amministrative significative</strong>
+        per chi non rispetta gli obblighi di sicurezza. In alcuni casi, come con la NIS 2,
+        le multe possono arrivare fino al <strong>2% del fatturato annuo globale</strong>.
+        La responsabilità ricade spesso sugli organi direttivi e sui dirigenti aziendali.
+    </p>
+
+</main>
+
+<!-- CONCLUSIONE -->
+<section class="chiusura-pagina">
+    <h2 class="chiusura-titolo">Conclusione</h2>
+    <p class="chiusura-testo">
+        La normativa sulla sicurezza digitale rappresenta uno strumento fondamentale
+        per garantire affidabilità, continuità e protezione dei servizi online.
+        Comprendere regole, obblighi e responsabilità aiuta cittadini e organizzazioni
+        a muoversi in modo consapevole e sicuro nel mondo digitale.
+    </p>
+</section>
+
+<footer class="footer-sito">
+    <p class="footer-testo">
+        Sito realizzato per il progetto di Educazione Civica – Analisi Servizi Digitali.<br>
+        Gruppo di lavoro: Davide Chiarucci, Andrea Dini, Lucio Venerandi e Giacomo De Riccardis.
+    </p>
+
+    <p class="footer-crediti">
+        © 2025 • Tutti i diritti riservati
+    </p>
+</footer>
+
+<script src="js/main.js"></script>
+
 </body>
 </html>
