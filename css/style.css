@@ -35,8 +35,8 @@ h1{
 /*Stile per l'immagine di copertina*/
 #copertina {
     border-radius: 15px;
-    width: 300px;
-    height: auto;
+    width: auto;
+    height: 100px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
@@ -68,6 +68,7 @@ nav {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 18px;
     padding: 5px 10px;
 }
 
@@ -129,8 +130,8 @@ nav {
 .paragrafo-home img{
     display: flex;       
     margin: 20px 40px;   
-    max-width: 40%;       
-    height: auto;          
+    width: 450px;       
+    height: 300px;          
     border-radius: 15px;  
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
 }
